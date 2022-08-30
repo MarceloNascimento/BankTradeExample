@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commands\TradeDelete\**" />
+    <Compile Remove="Commands\TradeEdit\**" />
+    <Compile Remove="Commands\TradeInsert\**" />
+    <Compile Remove="Commands\TradeListAll\**" />
+    <Compile Remove="Commands\ClientDelete\**" />
+    <Compile Remove="Commands\ClientEdit\**" />
+    <Compile Remove="Commands\ClientInsert\**" />
+    <Compile Remove="Commands\ClientListAll\**" />
+    <EmbeddedResource Remove="Commands\TradeDelete\**" />
+    <EmbeddedResource Remove="Commands\TradeEdit\**" />
+    <EmbeddedResource Remove="Commands\TradeInsert\**" />
+    <EmbeddedResource Remove="Commands\TradeListAll\**" />
+    <EmbeddedResource Remove="Commands\ClientDelete\**" />
+    <EmbeddedResource Remove="Commands\ClientEdit\**" />
+    <EmbeddedResource Remove="Commands\ClientInsert\**" />
+    <EmbeddedResource Remove="Commands\ClientListAll\**" />
+    <None Remove="Commands\TradeDelete\**" />
+    <None Remove="Commands\TradeEdit\**" />
+    <None Remove="Commands\TradeInsert\**" />
+    <None Remove="Commands\TradeListAll\**" />
+    <None Remove="Commands\ClientDelete\**" />
+    <None Remove="Commands\ClientEdit\**" />
+    <None Remove="Commands\ClientInsert\**" />
+    <None Remove="Commands\ClientListAll\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="MediatR" Version="9.0.0" />		
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleBank.Challenge.BankTrades.Infrastructure.CrossCutting\SampleBank.Challenge.BankTrades.Infrastructure.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>

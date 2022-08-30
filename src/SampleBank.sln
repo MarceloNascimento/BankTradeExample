@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Worker", "01-Worker", "{ECCB59B6-F0A8-4F03-AFAF-46C85E587D31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{883B51E1-8872-4CBF-B887-02B5E71EB039}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Domain", "03-Domain", "{D870901B-2BE4-4662-8E57-6586D290EBA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Infra", "04-Infra", "{1F1E1599-C18A-472E-B488-018FFA7F2BB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Tests", "05-Tests", "{C576D018-A819-40CC-BA20-FBC3A29C3BD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleBank.Challenge.BankTrades.Application", "SampleBank.Challenge.BankTrades.Application\SampleBank.Challenge.BankTrades.Application.csproj", "{018EF53A-E94B-4732-91E2-40F07758EFE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleBank.Challenge.BankTrades.Domain", "SampleBank.Challenge.BankTrades.Domain\SampleBank.Challenge.BankTrades.Domain.csproj", "{F6816970-6910-4396-88B0-34E39ADBAB29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleBank.Challenge.BankTrades.Infrastructure.Data", "SampleBank.Challenge.BankTrades.Infrastructure.Data\SampleBank.Challenge.BankTrades.Infrastructure.Data.csproj", "{AD046B27-4B43-40C1-A207-91C93689E4FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleBank.Challenge.BankTrades.Infrastructure.CrossCutting", "SampleBank.Challenge.BankTrades.Infrastructure.CrossCutting\SampleBank.Challenge.BankTrades.Infrastructure.CrossCutting.csproj", "{A7BA34BC-C7E6-4ECD-B855-89E1CFD7ECA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleBank.Challenge.BankTrades.Tests", "SampleBank.Challenge.BankTrades.Tests\SampleBank.Challenge.BankTrades.Tests.csproj", "{4A98B32D-9974-4799-8E96-E04EDC80D186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2622CB56-9A05-4585-BEFB-C5FF10C62B47}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleBank.Challenge.BankTrades.Worker", "SampleBank.Challenge.BankTrades.Worker\SampleBank.Challenge.BankTrades.Worker.csproj", "{5AD7393F-8B02-4E47-949E-23EF48D9E4C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{018EF53A-E94B-4732-91E2-40F07758EFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018EF53A-E94B-4732-91E2-40F07758EFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018EF53A-E94B-4732-91E2-40F07758EFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018EF53A-E94B-4732-91E2-40F07758EFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6816970-6910-4396-88B0-34E39ADBAB29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6816970-6910-4396-88B0-34E39ADBAB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6816970-6910-4396-88B0-34E39ADBAB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6816970-6910-4396-88B0-34E39ADBAB29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD046B27-4B43-40C1-A207-91C93689E4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD046B27-4B43-40C1-A207-91C93689E4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD046B27-4B43-40C1-A207-91C93689E4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD046B27-4B43-40C1-A207-91C93689E4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BA34BC-C7E6-4ECD-B855-89E1CFD7ECA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BA34BC-C7E6-4ECD-B855-89E1CFD7ECA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BA34BC-C7E6-4ECD-B855-89E1CFD7ECA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BA34BC-C7E6-4ECD-B855-89E1CFD7ECA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A98B32D-9974-4799-8E96-E04EDC80D186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A98B32D-9974-4799-8E96-E04EDC80D186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A98B32D-9974-4799-8E96-E04EDC80D186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A98B32D-9974-4799-8E96-E04EDC80D186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD7393F-8B02-4E47-949E-23EF48D9E4C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD7393F-8B02-4E47-949E-23EF48D9E4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD7393F-8B02-4E47-949E-23EF48D9E4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD7393F-8B02-4E47-949E-23EF48D9E4C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{018EF53A-E94B-4732-91E2-40F07758EFE1} = {883B51E1-8872-4CBF-B887-02B5E71EB039}
+		{F6816970-6910-4396-88B0-34E39ADBAB29} = {D870901B-2BE4-4662-8E57-6586D290EBA4}
+		{AD046B27-4B43-40C1-A207-91C93689E4FA} = {1F1E1599-C18A-472E-B488-018FFA7F2BB0}
+		{A7BA34BC-C7E6-4ECD-B855-89E1CFD7ECA3} = {1F1E1599-C18A-472E-B488-018FFA7F2BB0}
+		{4A98B32D-9974-4799-8E96-E04EDC80D186} = {C576D018-A819-40CC-BA20-FBC3A29C3BD6}
+		{5AD7393F-8B02-4E47-949E-23EF48D9E4C8} = {ECCB59B6-F0A8-4F03-AFAF-46C85E587D31}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FE7D8A7-461C-4D55-AFAF-26314FD77CD6}
+	EndGlobalSection
+EndGlobal
