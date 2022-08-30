@@ -1,8 +1,7 @@
-﻿using System;
-
-namespace SampleBank.Challenge.BankTrades.Worker
+﻿namespace SampleBank.Challenge.ClassifyTrades.Worker
 {
-    class Program
+    using System;
+    public class Program
     {
         static void Main(string[] args)
         {
