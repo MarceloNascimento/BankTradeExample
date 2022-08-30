@@ -28,7 +28,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleBank.Challenge.BankTrades.Worker", "SampleBank.Challenge.BankTrades.Worker\SampleBank.Challenge.BankTrades.Worker.csproj", "{5AD7393F-8B02-4E47-949E-23EF48D9E4C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleBank.Challenge.ClassifyTrades.Worker", "SampleBank.Challenge.BankTrades.Worker\SampleBank.Challenge.ClassifyTrades.Worker.csproj", "{5AD7393F-8B02-4E47-949E-23EF48D9E4C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

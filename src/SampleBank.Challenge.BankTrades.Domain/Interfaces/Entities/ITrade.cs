@@ -1,4 +1,4 @@
-namespace SampleBank.Challenge.BankTrades.Infrastructure.CrossCutting.Interfaces.Entities
+namespace SampleBank.Challenge.BankTrades.Domain.Interfaces.Entities
 {
     using System;
     interface ITrade
@@ -6,5 +6,6 @@ namespace SampleBank.Challenge.BankTrades.Infrastructure.CrossCutting.Interfaces
         double Value { get; }
         string ClientSector { get; }
         DateTime NextPaymentDate { get; }
+        bool IsPoliticallyExposed { get; }
     }
 }

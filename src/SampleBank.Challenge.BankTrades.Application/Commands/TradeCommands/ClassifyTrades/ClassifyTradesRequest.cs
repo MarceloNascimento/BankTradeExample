@@ -1,7 +1,7 @@
-using MediatR;
+
 namespace SampleBank.Challenge.BankTrades.API.ViewModels
 {
-    public class ClientDeleteRequest : IRequest<ClientDeletedViewModel>
+    public class ClassifyTradesRequest
     {
         public int Id { get; set; }
         public int Name { get; set; }
